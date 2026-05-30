@@ -5,7 +5,7 @@ Outil Python d'automatisation des contrôles IT Généraux (ITGC)
 
 ---
 
-## 🎯 Objectif
+##  Objectif
 
 Automatiser la détection de violations ITGC sur les systèmes d'information,  
 généralement effectuée manuellement par les auditeurs IT.  
@@ -13,7 +13,7 @@ Ce pipeline remplace des heures de travail Excel par une exécution en quelques 
 
 ---
 
-## 🧪 Contrôles implémentés
+##  Contrôles implémentés
 
 | # | Test | Framework | Règle métier |
 |---|------|-----------|--------------|
@@ -23,7 +23,7 @@ Ce pipeline remplace des heures de travail Excel par une exécution en quelques 
 
 ---
 
-## 📊 Résultats sur données de test
+##  Résultats sur données de test
 
 | Test | Violations | Critiques |
 |------|-----------|-----------|
@@ -34,7 +34,7 @@ Ce pipeline remplace des heures de travail Excel par une exécution en quelques 
 
 ---
 
-## 🗂️ Structure du projet
+##  Structure du projet
 itgc-audit-tool/
 ├── data/
 │   ├── user_access.csv        # Droits d'accès utilisateurs
@@ -51,7 +51,7 @@ itgc-audit-tool/
 
 ---
 
-## ⚡ Lancement rapide
+##  Lancement rapide
 
 **1. Cloner le projet**
 ```bash
@@ -73,7 +73,7 @@ Les rapports sont générés dans `reports/RAPPORT_AUDIT_ITGC_FINAL.xlsx`
 
 ---
 
-## 🛠️ Stack technique
+##  Stack technique
 
 | Outil | Usage |
 |-------|-------|
@@ -83,7 +83,7 @@ Les rapports sont générés dans `reports/RAPPORT_AUDIT_ITGC_FINAL.xlsx`
 
 ---
 
-## 📋 Format des données d'entrée
+##  Format des données d'entrée
 
 ### user_access.csv
 | Colonne | Description |
@@ -108,7 +108,7 @@ Les rapports sont générés dans `reports/RAPPORT_AUDIT_ITGC_FINAL.xlsx`
 
 ---
 
-## 🔮 Évolutions prévues
+##  Évolutions prévues
 
 - [ ] Test n°4 : Audit Log — connexions hors heures ouvrées
 - [ ] Connexion directe base de données MySQL
@@ -117,7 +117,7 @@ Les rapports sont générés dans `reports/RAPPORT_AUDIT_ITGC_FINAL.xlsx`
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 **Mohcine Chana**  
 MSc2 Contrôle de Gestion & Audit — INSEEC Bordeaux  
