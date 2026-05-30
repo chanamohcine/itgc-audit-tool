@@ -1,0 +1,13 @@
+# Rapports générés
+reports/
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Fichiers temporaires Excel
+~$*
+
+# VS Code
+.vscode/
